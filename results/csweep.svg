@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1010.0" height="402.0" viewBox="0 0 1010.0 402.0" font-family="Noto Sans, Segoe UI, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#fcfcfb"/>
+<text x="14.0" y="26.0" font-size="17" fill="#0b0b0b" text-anchor="start" font-weight="600">E2 - Quét hằng số khám phá c của MCTS (rollout ngẫu nhiên)</text>
+<text x="14.0" y="46.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="normal">Tỉ lệ Thắng / Hòa / Thua của MCTS theo c; số trên cột = tỉ lệ thắng; seed 2026</text>
+<rect x="14.0" y="60.0" width="12.0" height="12.0" fill="#2a78d6"></rect>
+<text x="31.0" y="70.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="normal">Thắng</text>
+<rect x="90.2" y="60.0" width="12.0" height="12.0" fill="#a3a29c"></rect>
+<text x="107.2" y="70.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="normal">Hòa</text>
+<rect x="146.6" y="60.0" width="12.0" height="12.0" fill="#e34948"></rect>
+<text x="163.6" y="70.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="normal">Thua</text>
+<text x="14.0" y="98.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">vs Random  (it=300, 100 ván)</text>
+<line x1="62.0" y1="326.0" x2="328.0" y2="326.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="56.0" y="330.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">0%</text>
+<line x1="62.0" y1="276.0" x2="328.0" y2="276.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="56.0" y="280.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">25%</text>
+<line x1="62.0" y1="226.0" x2="328.0" y2="226.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="56.0" y="230.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">50%</text>
+<line x1="62.0" y1="176.0" x2="328.0" y2="176.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="56.0" y="180.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">75%</text>
+<line x1="62.0" y1="126.0" x2="328.0" y2="126.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="56.0" y="130.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">100%</text>
+<line x1="62.0" y1="326.0" x2="328.0" y2="326.0" stroke="#bdbcb6" stroke-width="1"/>
+<text x="95.2" y="342.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">0.5</text>
+<text x="161.8" y="342.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">1.0</text>
+<text x="228.2" y="342.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">1.4</text>
+<text x="294.8" y="342.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">2.0</text>
+<text x="195.0" y="362.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">hằng số c</text>
+<path d="M76.6,326.0 V130.0 Q76.6,126.0 80.6,126.0 H109.9 Q113.9,126.0 113.9,130.0 V326.0 Z" fill="#2a78d6"><title>Thắng | 0.5: 100%</title></path>
+<text x="95.2" y="121.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">100%</text>
+<rect x="143.1" y="130.0" width="37.2" height="196.0" fill="#2a78d6"><title>Thắng | 1.0: 99%</title></rect>
+<path d="M143.1,128.0 V128.0 Q143.1,126.0 145.1,126.0 H178.4 Q180.4,126.0 180.4,128.0 V128.0 Z" fill="#e34948"><title>Thua | 1.0: 1%</title></path>
+<text x="161.8" y="121.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">99%</text>
+<rect x="209.6" y="130.0" width="37.2" height="196.0" fill="#2a78d6"><title>Thắng | 1.4: 99%</title></rect>
+<path d="M209.6,128.0 V128.0 Q209.6,126.0 211.6,126.0 H244.9 Q246.9,126.0 246.9,128.0 V128.0 Z" fill="#e34948"><title>Thua | 1.4: 1%</title></path>
+<text x="228.2" y="121.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">99%</text>
+<rect x="276.1" y="132.0" width="37.2" height="194.0" fill="#2a78d6"><title>Thắng | 2.0: 98%</title></rect>
+<path d="M276.1,130.0 V130.0 Q276.1,126.0 280.1,126.0 H309.4 Q313.4,126.0 313.4,130.0 V130.0 Z" fill="#e34948"><title>Thua | 2.0: 2%</title></path>
+<text x="294.8" y="121.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">98%</text>
+<text x="344.0" y="98.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">vs MCTS(300,c=1.4)  (it=300, 200 ván)</text>
+<line x1="392.0" y1="326.0" x2="658.0" y2="326.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="386.0" y="330.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">0%</text>
+<line x1="392.0" y1="276.0" x2="658.0" y2="276.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="386.0" y="280.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">25%</text>
+<line x1="392.0" y1="226.0" x2="658.0" y2="226.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="386.0" y="230.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">50%</text>
+<line x1="392.0" y1="176.0" x2="658.0" y2="176.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="386.0" y="180.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">75%</text>
+<line x1="392.0" y1="126.0" x2="658.0" y2="126.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="386.0" y="130.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">100%</text>
+<line x1="392.0" y1="326.0" x2="658.0" y2="326.0" stroke="#bdbcb6" stroke-width="1"/>
+<text x="425.2" y="342.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">0.5</text>
+<text x="491.8" y="342.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">1.0</text>
+<text x="558.2" y="342.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">1.4</text>
+<text x="624.8" y="342.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">2.0</text>
+<text x="525.0" y="362.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">hằng số c</text>
+<rect x="406.6" y="197.0" width="37.2" height="129.0" fill="#2a78d6"><title>Thắng | 0.5: 66%</title></rect>
+<path d="M406.6,195.0 V130.0 Q406.6,126.0 410.6,126.0 H439.9 Q443.9,126.0 443.9,130.0 V195.0 Z" fill="#e34948"><title>Thua | 0.5: 34%</title></path>
+<text x="425.2" y="121.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">66%</text>
+<rect x="473.1" y="217.0" width="37.2" height="109.0" fill="#2a78d6"><title>Thắng | 1.0: 56%</title></rect>
+<path d="M473.1,215.0 V130.0 Q473.1,126.0 477.1,126.0 H506.4 Q510.4,126.0 510.4,130.0 V215.0 Z" fill="#e34948"><title>Thua | 1.0: 44%</title></path>
+<text x="491.8" y="121.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">56%</text>
+<rect x="539.6" y="241.0" width="37.2" height="85.0" fill="#2a78d6"><title>Thắng | 1.4: 44%</title></rect>
+<path d="M539.6,239.0 V130.0 Q539.6,126.0 543.6,126.0 H572.9 Q576.9,126.0 576.9,130.0 V239.0 Z" fill="#e34948"><title>Thua | 1.4: 56%</title></path>
+<text x="558.2" y="121.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">44%</text>
+<rect x="606.1" y="228.0" width="37.2" height="98.0" fill="#2a78d6"><title>Thắng | 2.0: 50%</title></rect>
+<path d="M606.1,226.0 V130.0 Q606.1,126.0 610.1,126.0 H639.4 Q643.4,126.0 643.4,130.0 V226.0 Z" fill="#e34948"><title>Thua | 2.0: 50%</title></path>
+<text x="624.8" y="121.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">50%</text>
+<text x="674.0" y="98.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">vs MiniMax d=1  (it=10000, 100 ván)</text>
+<line x1="722.0" y1="326.0" x2="988.0" y2="326.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="716.0" y="330.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">0%</text>
+<line x1="722.0" y1="276.0" x2="988.0" y2="276.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="716.0" y="280.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">25%</text>
+<line x1="722.0" y1="226.0" x2="988.0" y2="226.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="716.0" y="230.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">50%</text>
+<line x1="722.0" y1="176.0" x2="988.0" y2="176.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="716.0" y="180.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">75%</text>
+<line x1="722.0" y1="126.0" x2="988.0" y2="126.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="716.0" y="130.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">100%</text>
+<line x1="722.0" y1="326.0" x2="988.0" y2="326.0" stroke="#bdbcb6" stroke-width="1"/>
+<text x="755.2" y="342.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">0.5</text>
+<text x="821.8" y="342.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">1.0</text>
+<text x="888.2" y="342.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">1.4</text>
+<text x="954.8" y="342.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">2.0</text>
+<text x="855.0" y="362.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">hằng số c</text>
+<rect x="736.6" y="228.0" width="37.2" height="98.0" fill="#2a78d6"><title>Thắng | 0.5: 50%</title></rect>
+<rect x="736.6" y="224.0" width="37.2" height="2.0" fill="#a3a29c"><title>Hòa | 0.5: 2%</title></rect>
+<path d="M736.6,222.0 V130.0 Q736.6,126.0 740.6,126.0 H769.9 Q773.9,126.0 773.9,130.0 V222.0 Z" fill="#e34948"><title>Thua | 0.5: 48%</title></path>
+<text x="755.2" y="121.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">50%</text>
+<rect x="803.1" y="284.0" width="37.2" height="42.0" fill="#2a78d6"><title>Thắng | 1.0: 22%</title></rect>
+<rect x="803.1" y="280.0" width="37.2" height="2.0" fill="#a3a29c"><title>Hòa | 1.0: 2%</title></rect>
+<path d="M803.1,278.0 V130.0 Q803.1,126.0 807.1,126.0 H836.4 Q840.4,126.0 840.4,130.0 V278.0 Z" fill="#e34948"><title>Thua | 1.0: 76%</title></path>
+<text x="821.8" y="121.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">22%</text>
+<rect x="869.6" y="268.0" width="37.2" height="58.0" fill="#2a78d6"><title>Thắng | 1.4: 30%</title></rect>
+<rect x="869.6" y="262.0" width="37.2" height="4.0" fill="#a3a29c"><title>Hòa | 1.4: 3%</title></rect>
+<path d="M869.6,260.0 V130.0 Q869.6,126.0 873.6,126.0 H902.9 Q906.9,126.0 906.9,130.0 V260.0 Z" fill="#e34948"><title>Thua | 1.4: 67%</title></path>
+<text x="888.2" y="121.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">30%</text>
+<rect x="936.1" y="286.0" width="37.2" height="40.0" fill="#2a78d6"><title>Thắng | 2.0: 21%</title></rect>
+<path d="M936.1,284.0 V130.0 Q936.1,126.0 940.1,126.0 H969.4 Q973.4,126.0 973.4,130.0 V284.0 Z" fill="#e34948"><title>Thua | 2.0: 79%</title></path>
+<text x="954.8" y="121.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">21%</text>
+<text x="14.0" y="392.0" font-size="11" fill="#8a8984" text-anchor="start" font-weight="normal">Theo đề: c ∈ {0.5, 1.0, 1.4, 2.0} ở số iteration cố định 300. Khung cuối: quét bổ sung ở 10000 iteration.</text>
+</svg>

@@ -1,0 +1,12 @@
+Thời điểm      : 2026-11-14 16:47:54
+CPU            : AMD Ryzen 7 H 255 w/ Radeon 780M Graphics
+Số luồng phần cứng: 16
+Hệ điều hành   : Windows
+Trình biên dịch: MSVC 1950, Release (/O2)
+Lệnh           : caro_bench
+Thực nghiệm    : all
+Số ván/cấu hình: 100 (MCTS vs MCTS: 200), đổi người đi trước theo cặp
+Seed gốc       : 2026 (ván i dùng seed + 7919*(i/2) + 1|2)
+Số luồng chạy  : 8 (mỗi ván chạy trên 1 luồng; thời gian đo bằng steady_clock)
+Giới hạn       : không giới hạn thời gian mỗi nước; dừng khi có người thắng hoặc bàn đầy
+Tổng thời gian : 225.4 s

@@ -1,0 +1,19 @@
+exp,group,agent_a,agent_b,param,value,games,win,draw,loss,win_rate,score,avg_ms_a,avg_ms_b,avg_plies,seed
+itersweep,vs Random,"MCTS(it=100,c=1.40,rand)",Random,iterations,100,100,96,0,4,0.9600,0.9600,0.576,0.000,40.30,2026
+itersweep,vs Random,"MCTS(it=300,c=1.40,rand)",Random,iterations,300,100,99,0,1,0.9900,0.9900,1.847,0.001,30.61,2026
+itersweep,vs Random,"MCTS(it=500,c=1.40,rand)",Random,iterations,500,100,99,0,1,0.9900,0.9900,3.382,0.001,23.29,2026
+itersweep,vs Random,"MCTS(it=1000,c=1.40,rand)",Random,iterations,1000,100,100,0,0,1.0000,1.0000,6.790,0.001,19.22,2026
+itersweep,vs Random,"MCTS(it=3000,c=1.40,rand)",Random,iterations,3000,100,100,0,0,1.0000,1.0000,20.878,0.001,12.96,2026
+itersweep,vs Random,"MCTS(it=10000,c=1.40,rand)",Random,iterations,10000,100,100,0,0,1.0000,1.0000,70.259,0.001,10.82,2026
+itersweep,"vs MCTS(300,c=1.4)","MCTS(it=100,c=1.40,rand)","MCTS(it=300,c=1.40,rand)",iterations,100,200,26,0,174,0.1300,0.1300,0.619,1.899,26.33,2026
+itersweep,"vs MCTS(300,c=1.4)","MCTS(it=300,c=1.40,rand)","MCTS(it=300,c=1.40,rand)",iterations,300,200,87,0,113,0.4350,0.4350,1.933,1.931,22.54,2026
+itersweep,"vs MCTS(300,c=1.4)","MCTS(it=500,c=1.40,rand)","MCTS(it=300,c=1.40,rand)",iterations,500,200,116,0,84,0.5800,0.5800,3.232,1.939,20.78,2026
+itersweep,"vs MCTS(300,c=1.4)","MCTS(it=1000,c=1.40,rand)","MCTS(it=300,c=1.40,rand)",iterations,1000,200,157,0,43,0.7850,0.7850,6.750,2.019,17.48,2026
+itersweep,"vs MCTS(300,c=1.4)","MCTS(it=3000,c=1.40,rand)","MCTS(it=300,c=1.40,rand)",iterations,3000,200,191,0,9,0.9550,0.9550,20.591,2.046,13.60,2026
+itersweep,"vs MCTS(300,c=1.4)","MCTS(it=10000,c=1.40,rand)","MCTS(it=300,c=1.40,rand)",iterations,10000,200,200,0,0,1.0000,1.0000,69.157,2.040,10.92,2026
+itersweep,vs MiniMax d=1,"MCTS(it=100,c=1.40,rand)","MiniMax(d=1,AB,k=12)",iterations,100,100,0,0,100,0.0000,0.0000,0.726,0.021,9.58,2026
+itersweep,vs MiniMax d=1,"MCTS(it=300,c=1.40,rand)","MiniMax(d=1,AB,k=12)",iterations,300,100,0,0,100,0.0000,0.0000,1.981,0.019,9.68,2026
+itersweep,vs MiniMax d=1,"MCTS(it=500,c=1.40,rand)","MiniMax(d=1,AB,k=12)",iterations,500,100,0,0,100,0.0000,0.0000,3.521,0.022,10.08,2026
+itersweep,vs MiniMax d=1,"MCTS(it=1000,c=1.40,rand)","MiniMax(d=1,AB,k=12)",iterations,1000,100,4,0,96,0.0400,0.0400,6.786,0.021,10.34,2026
+itersweep,vs MiniMax d=1,"MCTS(it=3000,c=1.40,rand)","MiniMax(d=1,AB,k=12)",iterations,3000,100,7,0,93,0.0700,0.0700,20.048,0.022,12.29,2026
+itersweep,vs MiniMax d=1,"MCTS(it=10000,c=1.40,rand)","MiniMax(d=1,AB,k=12)",iterations,10000,100,30,3,67,0.3000,0.3150,66.820,0.027,19.19,2026

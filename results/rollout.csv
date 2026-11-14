@@ -1,0 +1,19 @@
+exp,group,agent_a,agent_b,param,value,games,win,draw,loss,win_rate,score,avg_ms_a,avg_ms_b,avg_plies,seed
+rollout,heur vs rand (cùng iteration),"MCTS(it=100,c=1.40,heur)","MCTS(it=100,c=1.40,rand)",iterations,100,200,194,0,6,0.9700,0.9700,12.249,0.631,30.42,2026
+rollout,heur vs rand (cùng iteration),"MCTS(it=300,c=1.40,heur)","MCTS(it=300,c=1.40,rand)",iterations,300,200,165,0,35,0.8250,0.8250,34.888,1.902,22.16,2026
+rollout,heur vs rand (cùng iteration),"MCTS(it=500,c=1.40,heur)","MCTS(it=500,c=1.40,rand)",iterations,500,200,160,0,40,0.8000,0.8000,57.411,3.170,20.82,2026
+rollout,heur vs rand 20x iteration (cùng thời gian),"MCTS(it=100,c=1.40,heur)","MCTS(it=2000,c=1.40,rand)",iterations,100,100,12,0,88,0.1200,0.1200,15.660,13.421,15.30,2026
+rollout,heur vs rand 20x iteration (cùng thời gian),"MCTS(it=300,c=1.40,heur)","MCTS(it=6000,c=1.40,rand)",iterations,300,100,10,0,90,0.1000,0.1000,50.229,42.039,11.88,2026
+rollout,heur vs rand 20x iteration (cùng thời gian),"MCTS(it=500,c=1.40,heur)","MCTS(it=10000,c=1.40,rand)",iterations,500,100,10,0,90,0.1000,0.1000,82.174,68.576,11.24,2026
+rollout,vs Random/rand,"MCTS(it=100,c=1.40,rand)",Random,iterations,100,100,96,0,4,0.9600,0.9600,0.551,0.000,40.30,2026
+rollout,vs Random/rand,"MCTS(it=300,c=1.40,rand)",Random,iterations,300,100,99,0,1,0.9900,0.9900,1.798,0.000,30.61,2026
+rollout,vs Random/rand,"MCTS(it=500,c=1.40,rand)",Random,iterations,500,100,99,0,1,0.9900,0.9900,3.333,0.001,23.29,2026
+rollout,vs Random/heur,"MCTS(it=100,c=1.40,heur)",Random,iterations,100,100,100,0,0,1.0000,1.0000,11.185,0.000,39.08,2026
+rollout,vs Random/heur,"MCTS(it=300,c=1.40,heur)",Random,iterations,300,100,100,0,0,1.0000,1.0000,26.036,0.001,34.78,2026
+rollout,vs Random/heur,"MCTS(it=500,c=1.40,heur)",Random,iterations,500,100,100,0,0,1.0000,1.0000,37.685,0.001,33.80,2026
+rollout,vs MiniMax d=1/rand,"MCTS(it=100,c=1.40,rand)","MiniMax(d=1,AB,k=12)",iterations,100,100,0,0,100,0.0000,0.0000,0.650,0.018,9.58,2026
+rollout,vs MiniMax d=1/rand,"MCTS(it=300,c=1.40,rand)","MiniMax(d=1,AB,k=12)",iterations,300,100,0,0,100,0.0000,0.0000,1.933,0.018,9.68,2026
+rollout,vs MiniMax d=1/rand,"MCTS(it=500,c=1.40,rand)","MiniMax(d=1,AB,k=12)",iterations,500,100,0,0,100,0.0000,0.0000,3.396,0.020,10.08,2026
+rollout,vs MiniMax d=1/heur,"MCTS(it=100,c=1.40,heur)","MiniMax(d=1,AB,k=12)",iterations,100,100,0,0,100,0.0000,0.0000,15.661,0.019,9.90,2026
+rollout,vs MiniMax d=1/heur,"MCTS(it=300,c=1.40,heur)","MiniMax(d=1,AB,k=12)",iterations,300,100,4,0,96,0.0400,0.0400,51.213,0.020,9.76,2026
+rollout,vs MiniMax d=1/heur,"MCTS(it=500,c=1.40,heur)","MiniMax(d=1,AB,k=12)",iterations,500,100,3,0,97,0.0300,0.0300,87.449,0.020,9.75,2026

@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="818.0" height="748.0" viewBox="0 0 818.0 748.0" font-family="Noto Sans, Segoe UI, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#fcfcfb"/>
+<text x="14.0" y="26.0" font-size="17" fill="#0b0b0b" text-anchor="start" font-weight="600">E1 - Đấu vòng tròn: điểm của tác nhân hàng khi gặp tác nhân cột</text>
+<text x="14.0" y="46.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="normal">Điểm = (thắng + 0.5·hòa) / số ván; 100 ván mỗi cặp, đổi người đi trước theo cặp; seed 2026</text>
+<text x="162.0" y="187.0" font-size="11" fill="#0b0b0b" text-anchor="end" font-weight="normal">Random</text>
+<text x="207.0" y="142.0" font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="normal" transform="rotate(-40 207.0 142.0)">Random</text>
+<rect x="171.0" y="151.0" width="64.0" height="64.0" fill="#f5f4f1"></rect>
+<rect x="237.0" y="151.0" width="64.0" height="64.0" fill="#e34948"><title>Random vs MiniMax d=1: 0%</title></rect>
+<text x="269.0" y="187.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">0%</text>
+<rect x="303.0" y="151.0" width="64.0" height="64.0" fill="#e34948"><title>Random vs MiniMax d=2: 0%</title></rect>
+<text x="335.0" y="187.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">0%</text>
+<rect x="369.0" y="151.0" width="64.0" height="64.0" fill="#e34948"><title>Random vs MiniMax d=3: 0%</title></rect>
+<text x="401.0" y="187.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">0%</text>
+<rect x="435.0" y="151.0" width="64.0" height="64.0" fill="#e4504f"><title>Random vs MCTS 500 rand: 2%</title></rect>
+<text x="467.0" y="187.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">2%</text>
+<rect x="501.0" y="151.0" width="64.0" height="64.0" fill="#e34948"><title>Random vs MCTS 500 heur: 0%</title></rect>
+<text x="533.0" y="187.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">0%</text>
+<rect x="567.0" y="151.0" width="64.0" height="64.0" fill="#e34948"><title>Random vs MCTS 3000 rand: 0%</title></rect>
+<text x="599.0" y="187.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">0%</text>
+<rect x="633.0" y="151.0" width="64.0" height="64.0" fill="#e34948"><title>Random vs MCTS 500 rand+fm: 0%</title></rect>
+<text x="665.0" y="187.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">0%</text>
+<text x="162.0" y="253.0" font-size="11" fill="#0b0b0b" text-anchor="end" font-weight="normal">MiniMax d=1</text>
+<text x="273.0" y="142.0" font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="normal" transform="rotate(-40 273.0 142.0)">MiniMax d=1</text>
+<rect x="171.0" y="217.0" width="64.0" height="64.0" fill="#2a78d6"><title>MiniMax d=1 vs Random: 100%</title></rect>
+<text x="203.0" y="253.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">100%</text>
+<rect x="237.0" y="217.0" width="64.0" height="64.0" fill="#f5f4f1"></rect>
+<rect x="303.0" y="217.0" width="64.0" height="64.0" fill="#e34948"><title>MiniMax d=1 vs MiniMax d=2: 0%</title></rect>
+<text x="335.0" y="253.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">0%</text>
+<rect x="369.0" y="217.0" width="64.0" height="64.0" fill="#e34948"><title>MiniMax d=1 vs MiniMax d=3: 0%</title></rect>
+<text x="401.0" y="253.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">0%</text>
+<rect x="435.0" y="217.0" width="64.0" height="64.0" fill="#2a78d6"><title>MiniMax d=1 vs MCTS 500 rand: 100%</title></rect>
+<text x="467.0" y="253.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">100%</text>
+<rect x="501.0" y="217.0" width="64.0" height="64.0" fill="#3a82d8"><title>MiniMax d=1 vs MCTS 500 heur: 96%</title></rect>
+<text x="533.0" y="253.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">96%</text>
+<rect x="567.0" y="217.0" width="64.0" height="64.0" fill="#4a8bda"><title>MiniMax d=1 vs MCTS 3000 rand: 92%</title></rect>
+<text x="599.0" y="253.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">92%</text>
+<rect x="633.0" y="217.0" width="64.0" height="64.0" fill="#3a82d8"><title>MiniMax d=1 vs MCTS 500 rand+fm: 96%</title></rect>
+<text x="665.0" y="253.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">96%</text>
+<text x="162.0" y="319.0" font-size="11" fill="#0b0b0b" text-anchor="end" font-weight="normal">MiniMax d=2</text>
+<text x="339.0" y="142.0" font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="normal" transform="rotate(-40 339.0 142.0)">MiniMax d=2</text>
+<rect x="171.0" y="283.0" width="64.0" height="64.0" fill="#2a78d6"><title>MiniMax d=2 vs Random: 100%</title></rect>
+<text x="203.0" y="319.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">100%</text>
+<rect x="237.0" y="283.0" width="64.0" height="64.0" fill="#2a78d6"><title>MiniMax d=2 vs MiniMax d=1: 100%</title></rect>
+<text x="269.0" y="319.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">100%</text>
+<rect x="303.0" y="283.0" width="64.0" height="64.0" fill="#f5f4f1"></rect>
+<rect x="369.0" y="283.0" width="64.0" height="64.0" fill="#f0efec"><title>MiniMax d=2 vs MiniMax d=3: 50%</title></rect>
+<text x="401.0" y="319.0" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="normal">50%</text>
+<rect x="435.0" y="283.0" width="64.0" height="64.0" fill="#2a78d6"><title>MiniMax d=2 vs MCTS 500 rand: 100%</title></rect>
+<text x="467.0" y="319.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">100%</text>
+<rect x="501.0" y="283.0" width="64.0" height="64.0" fill="#2a78d6"><title>MiniMax d=2 vs MCTS 500 heur: 100%</title></rect>
+<text x="533.0" y="319.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">100%</text>
+<rect x="567.0" y="283.0" width="64.0" height="64.0" fill="#2a78d6"><title>MiniMax d=2 vs MCTS 3000 rand: 100%</title></rect>
+<text x="599.0" y="319.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">100%</text>
+<rect x="633.0" y="283.0" width="64.0" height="64.0" fill="#2a78d6"><title>MiniMax d=2 vs MCTS 500 rand+fm: 100%</title></rect>
+<text x="665.0" y="319.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">100%</text>
+<text x="162.0" y="385.0" font-size="11" fill="#0b0b0b" text-anchor="end" font-weight="normal">MiniMax d=3</text>
+<text x="405.0" y="142.0" font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="normal" transform="rotate(-40 405.0 142.0)">MiniMax d=3</text>
+<rect x="171.0" y="349.0" width="64.0" height="64.0" fill="#2a78d6"><title>MiniMax d=3 vs Random: 100%</title></rect>
+<text x="203.0" y="385.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">100%</text>
+<rect x="237.0" y="349.0" width="64.0" height="64.0" fill="#2a78d6"><title>MiniMax d=3 vs MiniMax d=1: 100%</title></rect>
+<text x="269.0" y="385.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">100%</text>
+<rect x="303.0" y="349.0" width="64.0" height="64.0" fill="#f0efec"><title>MiniMax d=3 vs MiniMax d=2: 50%</title></rect>
+<text x="335.0" y="385.0" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="normal">50%</text>
+<rect x="369.0" y="349.0" width="64.0" height="64.0" fill="#f5f4f1"></rect>
+<rect x="435.0" y="349.0" width="64.0" height="64.0" fill="#2a78d6"><title>MiniMax d=3 vs MCTS 500 rand: 100%</title></rect>
+<text x="467.0" y="385.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">100%</text>
+<rect x="501.0" y="349.0" width="64.0" height="64.0" fill="#2a78d6"><title>MiniMax d=3 vs MCTS 500 heur: 100%</title></rect>
+<text x="533.0" y="385.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">100%</text>
+<rect x="567.0" y="349.0" width="64.0" height="64.0" fill="#2a78d6"><title>MiniMax d=3 vs MCTS 3000 rand: 100%</title></rect>
+<text x="599.0" y="385.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">100%</text>
+<rect x="633.0" y="349.0" width="64.0" height="64.0" fill="#2a78d6"><title>MiniMax d=3 vs MCTS 500 rand+fm: 100%</title></rect>
+<text x="665.0" y="385.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">100%</text>
+<text x="162.0" y="451.0" font-size="11" fill="#0b0b0b" text-anchor="end" font-weight="normal">MCTS 500 rand</text>
+<text x="471.0" y="142.0" font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="normal" transform="rotate(-40 471.0 142.0)">MCTS 500 rand</text>
+<rect x="171.0" y="415.0" width="64.0" height="64.0" fill="#327dd7"><title>MCTS 500 rand vs Random: 98%</title></rect>
+<text x="203.0" y="451.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">98%</text>
+<rect x="237.0" y="415.0" width="64.0" height="64.0" fill="#e34948"><title>MCTS 500 rand vs MiniMax d=1: 0%</title></rect>
+<text x="269.0" y="451.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">0%</text>
+<rect x="303.0" y="415.0" width="64.0" height="64.0" fill="#e34948"><title>MCTS 500 rand vs MiniMax d=2: 0%</title></rect>
+<text x="335.0" y="451.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">0%</text>
+<rect x="369.0" y="415.0" width="64.0" height="64.0" fill="#e34948"><title>MCTS 500 rand vs MiniMax d=3: 0%</title></rect>
+<text x="401.0" y="451.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">0%</text>
+<rect x="435.0" y="415.0" width="64.0" height="64.0" fill="#f5f4f1"></rect>
+<rect x="501.0" y="415.0" width="64.0" height="64.0" fill="#e88886"><title>MCTS 500 rand vs MCTS 500 heur: 19%</title></rect>
+<text x="533.0" y="451.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">19%</text>
+<rect x="567.0" y="415.0" width="64.0" height="64.0" fill="#e56462"><title>MCTS 500 rand vs MCTS 3000 rand: 8%</title></rect>
+<text x="599.0" y="451.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">8%</text>
+<rect x="633.0" y="415.0" width="64.0" height="64.0" fill="#eaa6a4"><title>MCTS 500 rand vs MCTS 500 rand+fm: 28%</title></rect>
+<text x="665.0" y="451.0" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="normal">28%</text>
+<text x="162.0" y="517.0" font-size="11" fill="#0b0b0b" text-anchor="end" font-weight="normal">MCTS 500 heur</text>
+<text x="537.0" y="142.0" font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="normal" transform="rotate(-40 537.0 142.0)">MCTS 500 heur</text>
+<rect x="171.0" y="481.0" width="64.0" height="64.0" fill="#2a78d6"><title>MCTS 500 heur vs Random: 100%</title></rect>
+<text x="203.0" y="517.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">100%</text>
+<rect x="237.0" y="481.0" width="64.0" height="64.0" fill="#e45655"><title>MCTS 500 heur vs MiniMax d=1: 4%</title></rect>
+<text x="269.0" y="517.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">4%</text>
+<rect x="303.0" y="481.0" width="64.0" height="64.0" fill="#e34948"><title>MCTS 500 heur vs MiniMax d=2: 0%</title></rect>
+<text x="335.0" y="517.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">0%</text>
+<rect x="369.0" y="481.0" width="64.0" height="64.0" fill="#e34948"><title>MCTS 500 heur vs MiniMax d=3: 0%</title></rect>
+<text x="401.0" y="517.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">0%</text>
+<rect x="435.0" y="481.0" width="64.0" height="64.0" fill="#75a5de"><title>MCTS 500 heur vs MCTS 500 rand: 81%</title></rect>
+<text x="467.0" y="517.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">81%</text>
+<rect x="501.0" y="481.0" width="64.0" height="64.0" fill="#f5f4f1"></rect>
+<rect x="567.0" y="481.0" width="64.0" height="64.0" fill="#ecbab8"><title>MCTS 500 heur vs MCTS 3000 rand: 34%</title></rect>
+<text x="599.0" y="517.0" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="normal">34%</text>
+<rect x="633.0" y="481.0" width="64.0" height="64.0" fill="#eaa19f"><title>MCTS 500 heur vs MCTS 500 rand+fm: 26%</title></rect>
+<text x="665.0" y="517.0" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="normal">26%</text>
+<text x="162.0" y="583.0" font-size="11" fill="#0b0b0b" text-anchor="end" font-weight="normal">MCTS 3000 rand</text>
+<text x="603.0" y="142.0" font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="normal" transform="rotate(-40 603.0 142.0)">MCTS 3000 rand</text>
+<rect x="171.0" y="547.0" width="64.0" height="64.0" fill="#2a78d6"><title>MCTS 3000 rand vs Random: 100%</title></rect>
+<text x="203.0" y="583.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">100%</text>
+<rect x="237.0" y="547.0" width="64.0" height="64.0" fill="#e56462"><title>MCTS 3000 rand vs MiniMax d=1: 8%</title></rect>
+<text x="269.0" y="583.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">8%</text>
+<rect x="303.0" y="547.0" width="64.0" height="64.0" fill="#e34948"><title>MCTS 3000 rand vs MiniMax d=2: 0%</title></rect>
+<text x="335.0" y="583.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">0%</text>
+<rect x="369.0" y="547.0" width="64.0" height="64.0" fill="#e34948"><title>MCTS 3000 rand vs MiniMax d=3: 0%</title></rect>
+<text x="401.0" y="583.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">0%</text>
+<rect x="435.0" y="547.0" width="64.0" height="64.0" fill="#4a8bda"><title>MCTS 3000 rand vs MCTS 500 rand: 92%</title></rect>
+<text x="467.0" y="583.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">92%</text>
+<rect x="501.0" y="547.0" width="64.0" height="64.0" fill="#b1c9e5"><title>MCTS 3000 rand vs MCTS 500 heur: 66%</title></rect>
+<text x="533.0" y="583.0" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="normal">66%</text>
+<rect x="567.0" y="547.0" width="64.0" height="64.0" fill="#f5f4f1"></rect>
+<rect x="633.0" y="547.0" width="64.0" height="64.0" fill="#81ace0"><title>MCTS 3000 rand vs MCTS 500 rand+fm: 78%</title></rect>
+<text x="665.0" y="583.0" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="normal">78%</text>
+<text x="162.0" y="649.0" font-size="11" fill="#0b0b0b" text-anchor="end" font-weight="normal">MCTS 500 rand+fm</text>
+<text x="669.0" y="142.0" font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="normal" transform="rotate(-40 669.0 142.0)">MCTS 500 rand+fm</text>
+<rect x="171.0" y="613.0" width="64.0" height="64.0" fill="#2a78d6"><title>MCTS 500 rand+fm vs Random: 100%</title></rect>
+<text x="203.0" y="649.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">100%</text>
+<rect x="237.0" y="613.0" width="64.0" height="64.0" fill="#e45655"><title>MCTS 500 rand+fm vs MiniMax d=1: 4%</title></rect>
+<text x="269.0" y="649.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">4%</text>
+<rect x="303.0" y="613.0" width="64.0" height="64.0" fill="#e34948"><title>MCTS 500 rand+fm vs MiniMax d=2: 0%</title></rect>
+<text x="335.0" y="649.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">0%</text>
+<rect x="369.0" y="613.0" width="64.0" height="64.0" fill="#e34948"><title>MCTS 500 rand+fm vs MiniMax d=3: 0%</title></rect>
+<text x="401.0" y="649.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">0%</text>
+<rect x="435.0" y="613.0" width="64.0" height="64.0" fill="#99bbe2"><title>MCTS 500 rand+fm vs MCTS 500 rand: 72%</title></rect>
+<text x="467.0" y="649.0" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="normal">72%</text>
+<rect x="501.0" y="613.0" width="64.0" height="64.0" fill="#93b7e2"><title>MCTS 500 rand+fm vs MCTS 500 heur: 74%</title></rect>
+<text x="533.0" y="649.0" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="normal">74%</text>
+<rect x="567.0" y="613.0" width="64.0" height="64.0" fill="#e99290"><title>MCTS 500 rand+fm vs MCTS 3000 rand: 22%</title></rect>
+<text x="599.0" y="649.0" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="normal">22%</text>
+<rect x="633.0" y="613.0" width="64.0" height="64.0" fill="#f5f4f1"></rect>
+<rect x="170.0" y="702.0" width="22.0" height="12.0" fill="#e34948"></rect>
+<rect x="192.0" y="702.0" width="22.0" height="12.0" fill="#e66a69"></rect>
+<rect x="214.0" y="702.0" width="22.0" height="12.0" fill="#e88b8a"></rect>
+<rect x="236.0" y="702.0" width="22.0" height="12.0" fill="#ebadaa"></rect>
+<rect x="258.0" y="702.0" width="22.0" height="12.0" fill="#edcecb"></rect>
+<rect x="280.0" y="702.0" width="22.0" height="12.0" fill="#f0efec"></rect>
+<rect x="302.0" y="702.0" width="22.0" height="12.0" fill="#c8d7e8"></rect>
+<rect x="324.0" y="702.0" width="22.0" height="12.0" fill="#a1bfe3"></rect>
+<rect x="346.0" y="702.0" width="22.0" height="12.0" fill="#79a8df"></rect>
+<rect x="368.0" y="702.0" width="22.0" height="12.0" fill="#5290da"></rect>
+<rect x="390.0" y="702.0" width="22.0" height="12.0" fill="#2a78d6"></rect>
+<text x="162.0" y="712.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">0%</text>
+<text x="418.0" y="712.0" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal">100% (hàng thắng hết)</text>
+<text x="14.0" y="738.0" font-size="11" fill="#8a8984" text-anchor="start" font-weight="normal">Xanh: hàng mạnh hơn, đỏ: hàng yếu hơn, xám: ngang nhau. fm = có nước bắt buộc.</text>
+</svg>

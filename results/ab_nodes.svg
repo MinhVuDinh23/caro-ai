@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960.0" height="654.0" viewBox="0 0 960.0 654.0" font-family="Noto Sans, Segoe UI, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#fcfcfb"/>
+<text x="14.0" y="26.0" font-size="17" fill="#0b0b0b" text-anchor="start" font-weight="600">E4 - MiniMax có và không cắt tỉa Alpha-Beta: số nút đã duyệt</text>
+<text x="14.0" y="46.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="normal">8 thế cờ cố định (P1-P8), thang log; cùng cây tìm kiếm, cùng nước chọn</text>
+<rect x="14.0" y="60.0" width="12.0" height="12.0" fill="#2a78d6"></rect>
+<text x="31.0" y="70.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="normal">Alpha-Beta</text>
+<rect x="110.0" y="60.0" width="12.0" height="12.0" fill="#eb6834"></rect>
+<text x="127.0" y="70.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="normal">Không cắt tỉa</text>
+<text x="14.0" y="98.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">d = 2, top-k = 12</text>
+<line x1="62.0" y1="316.0" x2="468.0" y2="316.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="56.0" y="320.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">1</text>
+<line x1="62.0" y1="252.7" x2="468.0" y2="252.7" stroke="#e6e5e0" stroke-width="1"/>
+<text x="56.0" y="256.7" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">10</text>
+<line x1="62.0" y1="189.3" x2="468.0" y2="189.3" stroke="#e6e5e0" stroke-width="1"/>
+<text x="56.0" y="193.3" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">100</text>
+<line x1="62.0" y1="126.0" x2="468.0" y2="126.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="56.0" y="130.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">1k</text>
+<line x1="62.0" y1="316.0" x2="468.0" y2="316.0" stroke="#bdbcb6" stroke-width="1"/>
+<text x="22.0" y="221.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal" transform="rotate(-90 22.0 221.0)">số nút</text>
+<text x="87.4" y="332.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P1</text>
+<text x="138.1" y="332.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P2</text>
+<text x="188.9" y="332.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P3</text>
+<text x="239.6" y="332.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P4</text>
+<text x="290.4" y="332.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P5</text>
+<text x="341.1" y="332.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P6</text>
+<text x="391.9" y="332.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P7</text>
+<text x="442.6" y="332.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P8</text>
+<path d="M68.6,316.0 V219.9 Q68.6,215.9 72.6,215.9 H82.4 Q86.4,215.9 86.4,219.9 V316.0 Z" fill="#2a78d6"><title>Alpha-Beta | P1: 38.00</title></path>
+<path d="M88.4,316.0 V180.9 Q88.4,176.9 92.4,176.9 H102.2 Q106.2,176.9 106.2,180.9 V316.0 Z" fill="#eb6834"><title>Không cắt tỉa | P1: 157</title></path>
+<path d="M119.3,316.0 V214.1 Q119.3,210.1 123.3,210.1 H133.1 Q137.1,210.1 137.1,214.1 V316.0 Z" fill="#2a78d6"><title>Alpha-Beta | P2: 47.00</title></path>
+<path d="M139.1,316.0 V180.9 Q139.1,176.9 143.1,176.9 H152.9 Q156.9,176.9 156.9,180.9 V316.0 Z" fill="#eb6834"><title>Không cắt tỉa | P2: 157</title></path>
+<path d="M170.1,316.0 V221.4 Q170.1,217.4 174.1,217.4 H183.9 Q187.9,217.4 187.9,221.4 V316.0 Z" fill="#2a78d6"><title>Alpha-Beta | P3: 36.00</title></path>
+<path d="M189.9,316.0 V180.9 Q189.9,176.9 193.9,176.9 H203.7 Q207.7,176.9 207.7,180.9 V316.0 Z" fill="#eb6834"><title>Không cắt tỉa | P3: 157</title></path>
+<path d="M220.8,316.0 V221.4 Q220.8,217.4 224.8,217.4 H234.6 Q238.6,217.4 238.6,221.4 V316.0 Z" fill="#2a78d6"><title>Alpha-Beta | P4: 36.00</title></path>
+<path d="M240.6,316.0 V180.9 Q240.6,176.9 244.6,176.9 H254.4 Q258.4,176.9 258.4,180.9 V316.0 Z" fill="#eb6834"><title>Không cắt tỉa | P4: 157</title></path>
+<path d="M271.6,316.0 V233.8 Q271.6,229.8 275.6,229.8 H285.4 Q289.4,229.8 289.4,233.8 V316.0 Z" fill="#2a78d6"><title>Alpha-Beta | P5: 23.00</title></path>
+<path d="M291.4,316.0 V185.5 Q291.4,181.5 295.4,181.5 H305.2 Q309.2,181.5 309.2,185.5 V316.0 Z" fill="#eb6834"><title>Không cắt tỉa | P5: 133</title></path>
+<path d="M322.3,316.0 V221.4 Q322.3,217.4 326.3,217.4 H336.1 Q340.1,217.4 340.1,221.4 V316.0 Z" fill="#2a78d6"><title>Alpha-Beta | P6: 36.00</title></path>
+<path d="M342.1,316.0 V180.9 Q342.1,176.9 346.1,176.9 H355.9 Q359.9,176.9 359.9,180.9 V316.0 Z" fill="#eb6834"><title>Không cắt tỉa | P6: 157</title></path>
+<path d="M373.1,316.0 V221.4 Q373.1,217.4 377.1,217.4 H386.9 Q390.9,217.4 390.9,221.4 V316.0 Z" fill="#2a78d6"><title>Alpha-Beta | P7: 36.00</title></path>
+<path d="M392.9,316.0 V180.9 Q392.9,176.9 396.9,176.9 H406.7 Q410.7,176.9 410.7,180.9 V316.0 Z" fill="#eb6834"><title>Không cắt tỉa | P7: 157</title></path>
+<path d="M423.8,316.0 V221.4 Q423.8,217.4 427.8,217.4 H437.6 Q441.6,217.4 441.6,221.4 V316.0 Z" fill="#2a78d6"><title>Alpha-Beta | P8: 36.00</title></path>
+<path d="M443.6,316.0 V180.9 Q443.6,176.9 447.6,176.9 H457.4 Q461.4,176.9 461.4,180.9 V316.0 Z" fill="#eb6834"><title>Không cắt tỉa | P8: 157</title></path>
+<text x="484.0" y="98.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">d = 3, top-k = 12</text>
+<line x1="532.0" y1="316.0" x2="938.0" y2="316.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="526.0" y="320.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">1</text>
+<line x1="532.0" y1="268.5" x2="938.0" y2="268.5" stroke="#e6e5e0" stroke-width="1"/>
+<text x="526.0" y="272.5" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">10</text>
+<line x1="532.0" y1="221.0" x2="938.0" y2="221.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="526.0" y="225.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">100</text>
+<line x1="532.0" y1="173.5" x2="938.0" y2="173.5" stroke="#e6e5e0" stroke-width="1"/>
+<text x="526.0" y="177.5" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">1k</text>
+<line x1="532.0" y1="126.0" x2="938.0" y2="126.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="526.0" y="130.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">10k</text>
+<line x1="532.0" y1="316.0" x2="938.0" y2="316.0" stroke="#bdbcb6" stroke-width="1"/>
+<text x="492.0" y="221.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal" transform="rotate(-90 492.0 221.0)">số nút</text>
+<text x="557.4" y="332.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P1</text>
+<text x="608.1" y="332.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P2</text>
+<text x="658.9" y="332.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P3</text>
+<text x="709.6" y="332.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P4</text>
+<text x="760.4" y="332.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P5</text>
+<text x="811.1" y="332.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P6</text>
+<text x="861.9" y="332.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P7</text>
+<text x="912.6" y="332.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P8</text>
+<path d="M538.6,316.0 V211.5 Q538.6,207.5 542.6,207.5 H552.4 Q556.4,207.5 556.4,211.5 V316.0 Z" fill="#2a78d6"><title>Alpha-Beta | P1: 192</title></path>
+<path d="M558.4,316.0 V164.4 Q558.4,160.4 562.4,160.4 H572.2 Q576.2,160.4 576.2,164.4 V316.0 Z" fill="#eb6834"><title>Không cắt tỉa | P1: 1885</title></path>
+<path d="M589.3,316.0 V209.4 Q589.3,205.4 593.3,205.4 H603.1 Q607.1,205.4 607.1,209.4 V316.0 Z" fill="#2a78d6"><title>Alpha-Beta | P2: 213</title></path>
+<path d="M609.1,316.0 V164.4 Q609.1,160.4 613.1,160.4 H622.9 Q626.9,160.4 626.9,164.4 V316.0 Z" fill="#eb6834"><title>Không cắt tỉa | P2: 1885</title></path>
+<path d="M640.1,316.0 V211.7 Q640.1,207.7 644.1,207.7 H653.9 Q657.9,207.7 657.9,211.7 V316.0 Z" fill="#2a78d6"><title>Alpha-Beta | P3: 191</title></path>
+<path d="M659.9,316.0 V164.4 Q659.9,160.4 663.9,160.4 H673.7 Q677.7,160.4 677.7,164.4 V316.0 Z" fill="#eb6834"><title>Không cắt tỉa | P3: 1885</title></path>
+<path d="M690.8,316.0 V235.2 Q690.8,231.2 694.8,231.2 H704.6 Q708.6,231.2 708.6,235.2 V316.0 Z" fill="#2a78d6"><title>Alpha-Beta | P4: 61.00</title></path>
+<path d="M710.6,316.0 V165.9 Q710.6,161.9 714.6,161.9 H724.4 Q728.4,161.9 728.4,165.9 V316.0 Z" fill="#eb6834"><title>Không cắt tỉa | P4: 1753</title></path>
+<path d="M741.6,316.0 V217.6 Q741.6,213.6 745.6,213.6 H755.4 Q759.4,213.6 759.4,217.6 V316.0 Z" fill="#2a78d6"><title>Alpha-Beta | P5: 143</title></path>
+<path d="M761.4,316.0 V168.2 Q761.4,164.2 765.4,164.2 H775.2 Q779.2,164.2 779.2,168.2 V316.0 Z" fill="#eb6834"><title>Không cắt tỉa | P5: 1573</title></path>
+<path d="M792.3,316.0 V209.0 Q792.3,205.0 796.3,205.0 H806.1 Q810.1,205.0 810.1,209.0 V316.0 Z" fill="#2a78d6"><title>Alpha-Beta | P6: 217</title></path>
+<path d="M812.1,316.0 V164.4 Q812.1,160.4 816.1,160.4 H825.9 Q829.9,160.4 829.9,164.4 V316.0 Z" fill="#eb6834"><title>Không cắt tỉa | P6: 1885</title></path>
+<path d="M843.1,316.0 V211.7 Q843.1,207.7 847.1,207.7 H856.9 Q860.9,207.7 860.9,211.7 V316.0 Z" fill="#2a78d6"><title>Alpha-Beta | P7: 191</title></path>
+<path d="M862.9,316.0 V164.4 Q862.9,160.4 866.9,160.4 H876.7 Q880.7,160.4 880.7,164.4 V316.0 Z" fill="#eb6834"><title>Không cắt tỉa | P7: 1885</title></path>
+<path d="M893.8,316.0 V211.2 Q893.8,207.2 897.8,207.2 H907.6 Q911.6,207.2 911.6,211.2 V316.0 Z" fill="#2a78d6"><title>Alpha-Beta | P8: 195</title></path>
+<path d="M913.6,316.0 V164.4 Q913.6,160.4 917.6,160.4 H927.4 Q931.4,160.4 931.4,164.4 V316.0 Z" fill="#eb6834"><title>Không cắt tỉa | P8: 1885</title></path>
+<text x="14.0" y="378.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">d = 4, top-k = 12</text>
+<line x1="62.0" y1="596.0" x2="468.0" y2="596.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="56.0" y="600.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">1</text>
+<line x1="62.0" y1="558.0" x2="468.0" y2="558.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="56.0" y="562.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">10</text>
+<line x1="62.0" y1="520.0" x2="468.0" y2="520.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="56.0" y="524.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">100</text>
+<line x1="62.0" y1="482.0" x2="468.0" y2="482.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="56.0" y="486.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">1k</text>
+<line x1="62.0" y1="444.0" x2="468.0" y2="444.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="56.0" y="448.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">10k</text>
+<line x1="62.0" y1="406.0" x2="468.0" y2="406.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="56.0" y="410.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">100k</text>
+<line x1="62.0" y1="596.0" x2="468.0" y2="596.0" stroke="#bdbcb6" stroke-width="1"/>
+<text x="22.0" y="501.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal" transform="rotate(-90 22.0 501.0)">số nút</text>
+<text x="87.4" y="612.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P1</text>
+<text x="138.1" y="612.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P2</text>
+<text x="188.9" y="612.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P3</text>
+<text x="239.6" y="612.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P4</text>
+<text x="290.4" y="612.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P5</text>
+<text x="341.1" y="612.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P6</text>
+<text x="391.9" y="612.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P7</text>
+<text x="442.6" y="612.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P8</text>
+<path d="M68.6,596.0 V494.2 Q68.6,490.2 72.6,490.2 H82.4 Q86.4,490.2 86.4,494.2 V596.0 Z" fill="#2a78d6"><title>Alpha-Beta | P1: 610</title></path>
+<path d="M88.4,596.0 V434.5 Q88.4,430.5 92.4,430.5 H102.2 Q106.2,430.5 106.2,434.5 V596.0 Z" fill="#eb6834"><title>Không cắt tỉa | P1: 22621</title></path>
+<path d="M119.3,596.0 V492.1 Q119.3,488.1 123.3,488.1 H133.1 Q137.1,488.1 137.1,492.1 V596.0 Z" fill="#2a78d6"><title>Alpha-Beta | P2: 692</title></path>
+<path d="M139.1,596.0 V434.5 Q139.1,430.5 143.1,430.5 H152.9 Q156.9,430.5 156.9,434.5 V596.0 Z" fill="#eb6834"><title>Không cắt tỉa | P2: 22621</title></path>
+<path d="M170.1,596.0 V504.1 Q170.1,500.1 174.1,500.1 H183.9 Q187.9,500.1 187.9,504.1 V596.0 Z" fill="#2a78d6"><title>Alpha-Beta | P3: 333</title></path>
+<path d="M189.9,596.0 V435.1 Q189.9,431.1 193.9,431.1 H203.7 Q207.7,431.1 207.7,435.1 V596.0 Z" fill="#eb6834"><title>Không cắt tỉa | P3: 21829</title></path>
+<path d="M220.8,596.0 V510.5 Q220.8,506.5 224.8,506.5 H234.6 Q238.6,506.5 238.6,510.5 V596.0 Z" fill="#2a78d6"><title>Alpha-Beta | P4: 227</title></path>
+<path d="M240.6,596.0 V435.8 Q240.6,431.8 244.6,431.8 H254.4 Q258.4,431.8 258.4,435.8 V596.0 Z" fill="#eb6834"><title>Không cắt tỉa | P4: 20905</title></path>
+<path d="M271.6,596.0 V508.7 Q271.6,504.7 275.6,504.7 H285.4 Q289.4,504.7 289.4,508.7 V596.0 Z" fill="#2a78d6"><title>Alpha-Beta | P5: 253</title></path>
+<path d="M291.4,596.0 V440.0 Q291.4,436.0 295.4,436.0 H305.2 Q309.2,436.0 309.2,440.0 V596.0 Z" fill="#eb6834"><title>Không cắt tỉa | P5: 16213</title></path>
+<path d="M322.3,596.0 V495.7 Q322.3,491.7 326.3,491.7 H336.1 Q340.1,491.7 340.1,495.7 V596.0 Z" fill="#2a78d6"><title>Alpha-Beta | P6: 555</title></path>
+<path d="M342.1,596.0 V434.5 Q342.1,430.5 346.1,430.5 H355.9 Q359.9,430.5 359.9,434.5 V596.0 Z" fill="#eb6834"><title>Không cắt tỉa | P6: 22621</title></path>
+<path d="M373.1,596.0 V504.1 Q373.1,500.1 377.1,500.1 H386.9 Q390.9,500.1 390.9,504.1 V596.0 Z" fill="#2a78d6"><title>Alpha-Beta | P7: 333</title></path>
+<path d="M392.9,596.0 V435.3 Q392.9,431.3 396.9,431.3 H406.7 Q410.7,431.3 410.7,435.3 V596.0 Z" fill="#eb6834"><title>Không cắt tỉa | P7: 21565</title></path>
+<path d="M423.8,596.0 V486.2 Q423.8,482.2 427.8,482.2 H437.6 Q441.6,482.2 441.6,486.2 V596.0 Z" fill="#2a78d6"><title>Alpha-Beta | P8: 988</title></path>
+<path d="M443.6,596.0 V434.5 Q443.6,430.5 447.6,430.5 H457.4 Q461.4,430.5 461.4,434.5 V596.0 Z" fill="#eb6834"><title>Không cắt tỉa | P8: 22621</title></path>
+<text x="484.0" y="378.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">d = 3, không giới hạn ứng viên</text>
+<line x1="532.0" y1="596.0" x2="938.0" y2="596.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="526.0" y="600.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">1</text>
+<line x1="532.0" y1="564.3" x2="938.0" y2="564.3" stroke="#e6e5e0" stroke-width="1"/>
+<text x="526.0" y="568.3" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">10</text>
+<line x1="532.0" y1="532.7" x2="938.0" y2="532.7" stroke="#e6e5e0" stroke-width="1"/>
+<text x="526.0" y="536.7" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">100</text>
+<line x1="532.0" y1="501.0" x2="938.0" y2="501.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="526.0" y="505.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">1k</text>
+<line x1="532.0" y1="469.3" x2="938.0" y2="469.3" stroke="#e6e5e0" stroke-width="1"/>
+<text x="526.0" y="473.3" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">10k</text>
+<line x1="532.0" y1="437.7" x2="938.0" y2="437.7" stroke="#e6e5e0" stroke-width="1"/>
+<text x="526.0" y="441.7" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">100k</text>
+<line x1="532.0" y1="406.0" x2="938.0" y2="406.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="526.0" y="410.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">1M</text>
+<line x1="532.0" y1="596.0" x2="938.0" y2="596.0" stroke="#bdbcb6" stroke-width="1"/>
+<text x="492.0" y="501.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal" transform="rotate(-90 492.0 501.0)">số nút</text>
+<text x="557.4" y="612.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P1</text>
+<text x="608.1" y="612.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P2</text>
+<text x="658.9" y="612.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P3</text>
+<text x="709.6" y="612.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P4</text>
+<text x="760.4" y="612.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P5</text>
+<text x="811.1" y="612.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P6</text>
+<text x="861.9" y="612.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P7</text>
+<text x="912.6" y="612.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">P8</text>
+<path d="M538.6,596.0 V500.2 Q538.6,496.2 542.6,496.2 H552.4 Q556.4,496.2 556.4,500.2 V596.0 Z" fill="#2a78d6"><title>Alpha-Beta | P1: 1413</title></path>
+<path d="M558.4,596.0 V449.5 Q558.4,445.5 562.4,445.5 H572.2 Q576.2,445.5 576.2,449.5 V596.0 Z" fill="#eb6834"><title>Không cắt tỉa | P1: 56704</title></path>
+<path d="M589.3,596.0 V489.8 Q589.3,485.8 593.3,485.8 H603.1 Q607.1,485.8 607.1,489.8 V596.0 Z" fill="#2a78d6"><title>Alpha-Beta | P2: 3011</title></path>
+<path d="M609.1,596.0 V436.3 Q609.1,432.3 613.1,432.3 H622.9 Q626.9,432.3 626.9,436.3 V596.0 Z" fill="#eb6834"><title>Không cắt tỉa | P2: 147574</title></path>
+<path d="M640.1,596.0 V489.7 Q640.1,485.7 644.1,485.7 H653.9 Q657.9,485.7 657.9,489.7 V596.0 Z" fill="#2a78d6"><title>Alpha-Beta | P3: 3052</title></path>
+<path d="M659.9,596.0 V435.2 Q659.9,431.2 663.9,431.2 H673.7 Q677.7,431.2 677.7,435.2 V596.0 Z" fill="#eb6834"><title>Không cắt tỉa | P3: 160044</title></path>
+<path d="M690.8,596.0 V522.2 Q690.8,518.2 694.8,518.2 H704.6 Q708.6,518.2 708.6,522.2 V596.0 Z" fill="#2a78d6"><title>Alpha-Beta | P4: 286</title></path>
+<path d="M710.6,596.0 V434.3 Q710.6,430.3 714.6,430.3 H724.4 Q728.4,430.3 728.4,434.3 V596.0 Z" fill="#eb6834"><title>Không cắt tỉa | P4: 170883</title></path>
+<path d="M741.6,596.0 V495.7 Q741.6,491.7 745.6,491.7 H755.4 Q759.4,491.7 759.4,495.7 V596.0 Z" fill="#2a78d6"><title>Alpha-Beta | P5: 1967</title></path>
+<path d="M761.4,596.0 V442.4 Q761.4,438.4 765.4,438.4 H775.2 Q779.2,438.4 779.2,442.4 V596.0 Z" fill="#eb6834"><title>Không cắt tỉa | P5: 94614</title></path>
+<path d="M792.3,596.0 V485.9 Q792.3,481.9 796.3,481.9 H806.1 Q810.1,481.9 810.1,485.9 V596.0 Z" fill="#2a78d6"><title>Alpha-Beta | P6: 4023</title></path>
+<path d="M812.1,596.0 V430.3 Q812.1,426.3 816.1,426.3 H825.9 Q829.9,426.3 829.9,430.3 V596.0 Z" fill="#eb6834"><title>Không cắt tỉa | P6: 229149</title></path>
+<path d="M843.1,596.0 V486.5 Q843.1,482.5 847.1,482.5 H856.9 Q860.9,482.5 860.9,486.5 V596.0 Z" fill="#2a78d6"><title>Alpha-Beta | P7: 3838</title></path>
+<path d="M862.9,596.0 V430.7 Q862.9,426.7 866.9,426.7 H876.7 Q880.7,426.7 880.7,430.7 V596.0 Z" fill="#eb6834"><title>Không cắt tỉa | P7: 221528</title></path>
+<path d="M893.8,596.0 V505.1 Q893.8,501.1 897.8,501.1 H907.6 Q911.6,501.1 911.6,505.1 V596.0 Z" fill="#2a78d6"><title>Alpha-Beta | P8: 992</title></path>
+<path d="M913.6,596.0 V457.2 Q913.6,453.2 917.6,453.2 H927.4 Q931.4,453.2 931.4,457.2 V596.0 Z" fill="#eb6834"><title>Không cắt tỉa | P8: 32387</title></path>
+</svg>

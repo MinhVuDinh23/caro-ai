@@ -43,15 +43,21 @@ add_custom_command(TARGET caro_gui POST_BUILD
           ${CMAKE_SOURCE_DIR}/assets $<TARGET_FILE_DIR:caro_gui>/assets)
 
 # ---- Benchmark CLI ----
-file(GLOB BENCH_SRCS CONFIGURE_DEPENDS src/bench/*.cpp)
-add_executable(caro_bench ${BENCH_SRCS})
-target_link_libraries(caro_bench PRIVATE caro_core)
+# Library (everything except main.cpp) shared by caro_bench and caro_tests
+file(GLOB BENCH_LIB_SRCS CONFIGURE_DEPENDS src/bench/*.cpp)
+list(REMOVE_ITEM BENCH_LIB_SRCS ${CMAKE_CURRENT_SOURCE_DIR}/src/bench/main.cpp)
+add_library(caro_benchlib STATIC ${BENCH_LIB_SRCS})
+target_include_directories(caro_benchlib PUBLIC src/bench)
+target_link_libraries(caro_benchlib PUBLIC caro_core)
+caro_warnings(caro_benchlib)
+add_executable(caro_bench src/bench/main.cpp)
+target_link_libraries(caro_bench PRIVATE caro_benchlib)
 caro_warnings(caro_bench)
 
 # ---- Tests ----
 file(GLOB TEST_SRCS CONFIGURE_DEPENDS tests/*.cpp)
 add_executable(caro_tests ${TEST_SRCS})
-target_link_libraries(caro_tests PRIVATE caro_core)
+target_link_libraries(caro_tests PRIVATE caro_core caro_benchlib)
 caro_warnings(caro_tests)
 enable_testing()
 add_test(NAME caro_tests COMMAND caro_tests)

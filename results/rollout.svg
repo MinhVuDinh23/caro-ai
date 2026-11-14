@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960.0" height="692.0" viewBox="0 0 960.0 692.0" font-family="Noto Sans, Segoe UI, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#fcfcfb"/>
+<text x="14.0" y="26.0" font-size="17" fill="#0b0b0b" text-anchor="start" font-weight="600">E5 (Bài 2 - Hướng A) - Rollout heuristic so với rollout ngẫu nhiên</text>
+<text x="14.0" y="46.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="normal">Điểm = (thắng + 0.5·hòa) / số ván; c = 1.4; seed 2026</text>
+<rect x="14.0" y="60.0" width="12.0" height="12.0" fill="#2a78d6"></rect>
+<text x="31.0" y="70.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="normal">Rollout ngẫu nhiên</text>
+<rect x="182.6" y="60.0" width="12.0" height="12.0" fill="#eb6834"></rect>
+<text x="199.6" y="70.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="normal">Rollout heuristic</text>
+<text x="14.0" y="98.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">Heuristic vs ngẫu nhiên, cùng số iteration</text>
+<line x1="62.0" y1="326.0" x2="468.0" y2="326.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="56.0" y="330.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">0%</text>
+<line x1="62.0" y1="276.0" x2="468.0" y2="276.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="56.0" y="280.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">25%</text>
+<line x1="62.0" y1="226.0" x2="468.0" y2="226.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="56.0" y="230.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">50%</text>
+<line x1="62.0" y1="176.0" x2="468.0" y2="176.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="56.0" y="180.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">75%</text>
+<line x1="62.0" y1="126.0" x2="468.0" y2="126.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="56.0" y="130.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">100%</text>
+<line x1="62.0" y1="326.0" x2="468.0" y2="326.0" stroke="#bdbcb6" stroke-width="1"/>
+<line x1="62.0" y1="226.0" x2="468.0" y2="226.0" stroke="#8a8984" stroke-width="1.2" stroke-dasharray="5,4"/>
+<text x="129.7" y="342.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">100</text>
+<text x="265.0" y="342.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">300</text>
+<text x="400.3" y="342.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">500</text>
+<text x="265.0" y="362.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">số iteration của MCTS heuristic</text>
+<path d="M96.8,326.0 V136.0 Q96.8,132.0 100.8,132.0 H158.5 Q162.5,132.0 162.5,136.0 V326.0 Z" fill="#eb6834"><title>MCTS heuristic | 100: 97%</title></path>
+<text x="129.7" y="128.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">97%</text>
+<path d="M232.2,326.0 V165.0 Q232.2,161.0 236.2,161.0 H293.8 Q297.8,161.0 297.8,165.0 V326.0 Z" fill="#eb6834"><title>MCTS heuristic | 300: 82%</title></path>
+<text x="265.0" y="157.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">82%</text>
+<path d="M367.5,326.0 V170.0 Q367.5,166.0 371.5,166.0 H429.2 Q433.2,166.0 433.2,170.0 V326.0 Z" fill="#eb6834"><title>MCTS heuristic | 500: 80%</title></path>
+<text x="400.3" y="162.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">80%</text>
+<text x="484.0" y="98.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">Heuristic (it) vs ngẫu nhiên (20·it) ~ cùng thời gian</text>
+<line x1="532.0" y1="326.0" x2="938.0" y2="326.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="526.0" y="330.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">0%</text>
+<line x1="532.0" y1="276.0" x2="938.0" y2="276.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="526.0" y="280.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">25%</text>
+<line x1="532.0" y1="226.0" x2="938.0" y2="226.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="526.0" y="230.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">50%</text>
+<line x1="532.0" y1="176.0" x2="938.0" y2="176.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="526.0" y="180.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">75%</text>
+<line x1="532.0" y1="126.0" x2="938.0" y2="126.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="526.0" y="130.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">100%</text>
+<line x1="532.0" y1="326.0" x2="938.0" y2="326.0" stroke="#bdbcb6" stroke-width="1"/>
+<line x1="532.0" y1="226.0" x2="938.0" y2="226.0" stroke="#8a8984" stroke-width="1.2" stroke-dasharray="5,4"/>
+<text x="599.7" y="342.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">100</text>
+<text x="735.0" y="342.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">300</text>
+<text x="870.3" y="342.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">500</text>
+<text x="735.0" y="362.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">số iteration của MCTS heuristic</text>
+<path d="M566.8,326.0 V306.0 Q566.8,302.0 570.8,302.0 H628.5 Q632.5,302.0 632.5,306.0 V326.0 Z" fill="#eb6834"><title>MCTS heuristic | 100: 12%</title></path>
+<text x="599.7" y="298.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">12%</text>
+<path d="M702.2,326.0 V310.0 Q702.2,306.0 706.2,306.0 H763.8 Q767.8,306.0 767.8,310.0 V326.0 Z" fill="#eb6834"><title>MCTS heuristic | 300: 10%</title></path>
+<text x="735.0" y="302.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">10%</text>
+<path d="M837.5,326.0 V310.0 Q837.5,306.0 841.5,306.0 H899.2 Q903.2,306.0 903.2,310.0 V326.0 Z" fill="#eb6834"><title>MCTS heuristic | 500: 10%</title></path>
+<text x="870.3" y="302.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">10%</text>
+<text x="14.0" y="388.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">Điểm khi gặp Random</text>
+<line x1="62.0" y1="616.0" x2="468.0" y2="616.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="56.0" y="620.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">0%</text>
+<line x1="62.0" y1="566.0" x2="468.0" y2="566.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="56.0" y="570.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">25%</text>
+<line x1="62.0" y1="516.0" x2="468.0" y2="516.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="56.0" y="520.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">50%</text>
+<line x1="62.0" y1="466.0" x2="468.0" y2="466.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="56.0" y="470.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">75%</text>
+<line x1="62.0" y1="416.0" x2="468.0" y2="416.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="56.0" y="420.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">100%</text>
+<line x1="62.0" y1="616.0" x2="468.0" y2="616.0" stroke="#bdbcb6" stroke-width="1"/>
+<text x="129.7" y="632.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">100</text>
+<text x="265.0" y="632.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">300</text>
+<text x="400.3" y="632.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">500</text>
+<text x="265.0" y="652.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">số iteration</text>
+<path d="M77.9,616.0 V428.0 Q77.9,424.0 81.9,424.0 H124.7 Q128.7,424.0 128.7,428.0 V616.0 Z" fill="#2a78d6"><title>Rollout ngẫu nhiên | 100: 96%</title></path>
+<text x="103.3" y="420.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">96%</text>
+<path d="M130.7,616.0 V420.0 Q130.7,416.0 134.7,416.0 H177.4 Q181.4,416.0 181.4,420.0 V616.0 Z" fill="#eb6834"><title>Rollout heuristic | 100: 100%</title></path>
+<text x="156.1" y="412.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">100%</text>
+<path d="M213.2,616.0 V422.0 Q213.2,418.0 217.2,418.0 H260.0 Q264.0,418.0 264.0,422.0 V616.0 Z" fill="#2a78d6"><title>Rollout ngẫu nhiên | 300: 99%</title></path>
+<text x="238.6" y="414.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">99%</text>
+<path d="M266.0,616.0 V420.0 Q266.0,416.0 270.0,416.0 H312.8 Q316.8,416.0 316.8,420.0 V616.0 Z" fill="#eb6834"><title>Rollout heuristic | 300: 100%</title></path>
+<text x="291.4" y="412.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">100%</text>
+<path d="M348.6,616.0 V422.0 Q348.6,418.0 352.6,418.0 H395.3 Q399.3,418.0 399.3,422.0 V616.0 Z" fill="#2a78d6"><title>Rollout ngẫu nhiên | 500: 99%</title></path>
+<text x="373.9" y="414.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">99%</text>
+<path d="M401.3,616.0 V420.0 Q401.3,416.0 405.3,416.0 H448.1 Q452.1,416.0 452.1,420.0 V616.0 Z" fill="#eb6834"><title>Rollout heuristic | 500: 100%</title></path>
+<text x="426.7" y="412.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">100%</text>
+<text x="484.0" y="388.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">Điểm khi gặp MiniMax d=1</text>
+<line x1="532.0" y1="616.0" x2="938.0" y2="616.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="526.0" y="620.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">0%</text>
+<line x1="532.0" y1="566.0" x2="938.0" y2="566.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="526.0" y="570.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">25%</text>
+<line x1="532.0" y1="516.0" x2="938.0" y2="516.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="526.0" y="520.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">50%</text>
+<line x1="532.0" y1="466.0" x2="938.0" y2="466.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="526.0" y="470.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">75%</text>
+<line x1="532.0" y1="416.0" x2="938.0" y2="416.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="526.0" y="420.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="normal">100%</text>
+<line x1="532.0" y1="616.0" x2="938.0" y2="616.0" stroke="#bdbcb6" stroke-width="1"/>
+<text x="599.7" y="632.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">100</text>
+<text x="735.0" y="632.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">300</text>
+<text x="870.3" y="632.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">500</text>
+<text x="735.0" y="652.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">số iteration</text>
+<text x="573.3" y="612.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">0%</text>
+<text x="626.1" y="612.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">0%</text>
+<text x="708.6" y="612.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">0%</text>
+<path d="M736.0,616.0 V612.0 Q736.0,608.0 740.0,608.0 H782.8 Q786.8,608.0 786.8,612.0 V616.0 Z" fill="#eb6834"><title>Rollout heuristic | 300: 4%</title></path>
+<text x="761.4" y="604.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">4%</text>
+<text x="843.9" y="612.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">0%</text>
+<path d="M871.3,616.0 V614.0 Q871.3,610.0 875.3,610.0 H918.1 Q922.1,610.0 922.1,614.0 V616.0 Z" fill="#eb6834"><title>Rollout heuristic | 500: 3%</title></path>
+<text x="896.7" y="606.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="normal">3%</text>
+<text x="14.0" y="682.0" font-size="11" fill="#8a8984" text-anchor="start" font-weight="normal">Hai khung trên: &gt; 50% nghĩa là heuristic mạnh hơn. Đường đứt = 50%.</text>
+</svg>

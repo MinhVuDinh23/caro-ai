@@ -1,0 +1,13 @@
+exp,group,agent_a,agent_b,param,value,games,win,draw,loss,win_rate,score,avg_ms_a,avg_ms_b,avg_plies,seed
+csweep,vs Random,"MCTS(it=300,c=0.50,rand)",Random,c,0.5,100,100,0,0,1.0000,1.0000,1.942,0.000,23.92,2026
+csweep,vs Random,"MCTS(it=300,c=1.00,rand)",Random,c,1.0,100,99,0,1,0.9900,0.9900,1.892,0.000,28.47,2026
+csweep,vs Random,"MCTS(it=300,c=1.40,rand)",Random,c,1.4,100,99,0,1,0.9900,0.9900,1.891,0.000,30.61,2026
+csweep,vs Random,"MCTS(it=300,c=2.00,rand)",Random,c,2.0,100,98,0,2,0.9800,0.9800,1.823,0.000,29.24,2026
+csweep,"vs MCTS(300,c=1.4)","MCTS(it=300,c=0.50,rand)","MCTS(it=300,c=1.40,rand)",c,0.5,200,131,0,69,0.6550,0.6550,1.981,1.998,20.86,2026
+csweep,"vs MCTS(300,c=1.4)","MCTS(it=300,c=1.00,rand)","MCTS(it=300,c=1.40,rand)",c,1.0,200,111,0,89,0.5550,0.5550,2.021,2.026,23.00,2026
+csweep,"vs MCTS(300,c=1.4)","MCTS(it=300,c=1.40,rand)","MCTS(it=300,c=1.40,rand)",c,1.4,200,87,0,113,0.4350,0.4350,1.916,1.914,22.54,2026
+csweep,"vs MCTS(300,c=1.4)","MCTS(it=300,c=2.00,rand)","MCTS(it=300,c=1.40,rand)",c,2.0,200,100,0,100,0.5000,0.5000,1.913,1.909,23.26,2026
+csweep,vs MiniMax d=1 (it=10000),"MCTS(it=10000,c=0.50,rand)","MiniMax(d=1,AB,k=12)",c,0.5,100,50,2,48,0.5000,0.5100,62.683,0.025,20.24,2026
+csweep,vs MiniMax d=1 (it=10000),"MCTS(it=10000,c=1.00,rand)","MiniMax(d=1,AB,k=12)",c,1.0,100,22,2,76,0.2200,0.2300,64.485,0.025,17.74,2026
+csweep,vs MiniMax d=1 (it=10000),"MCTS(it=10000,c=1.40,rand)","MiniMax(d=1,AB,k=12)",c,1.4,100,30,3,67,0.3000,0.3150,65.045,0.025,19.19,2026
+csweep,vs MiniMax d=1 (it=10000),"MCTS(it=10000,c=2.00,rand)","MiniMax(d=1,AB,k=12)",c,2.0,100,21,0,79,0.2100,0.2100,67.741,0.024,13.97,2026
