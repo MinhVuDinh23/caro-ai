@@ -1,5 +1,5 @@
 # Build output
-MaNguon/build/
+build/
 .vs/
 *.zip
 __pycache__/
