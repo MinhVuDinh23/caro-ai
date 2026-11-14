@@ -34,4 +34,15 @@ int evaluate(const Board& b, Cell perspective);
 // Dùng để sắp xếp nước đi (MiniMax) và cho rollout heuristic (MCTS).
 int scoreMove(const Board& b, Move m, Cell side);
 
+// Một lần quét 140 cửa sổ, tìm các ô "thắng ngay" (cửa sổ có 4 quân một bên + 1 ô trống):
+//   wins    = ô mà `side` đánh vào là thắng;
+//   threats = ô mà đối thủ của `side` đánh vào là thắng (side phải chặn).
+// Không trùng lặp, thứ tự tăng dần theo chỉ số ô.
+void immediateWins(const Board& b, Cell side, std::vector<Move>& wins, std::vector<Move>& threats);
+
+// Nước bắt buộc (decisive / anti-decisive moves) cho bên đến lượt:
+//   có nước thắng ngay -> chỉ các nước đó; đối thủ có nước thắng ngay -> chỉ các ô chặn;
+//   ngược lại -> rỗng (không có nước bắt buộc).
+std::vector<Move> forcedMoves(const Board& b);
+
 }  // namespace caro

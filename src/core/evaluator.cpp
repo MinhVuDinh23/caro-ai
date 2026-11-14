@@ -80,4 +80,33 @@ int scoreMove(const Board& b, Move m, Cell side) {
     return attack + defend;
 }
 
+void immediateWins(const Board& b, Cell side, std::vector<Move>& wins, std::vector<Move>& threats) {
+    wins.clear();
+    threats.clear();
+    if (b.isTerminal()) return;
+    std::array<bool, CELLS> isWin{}, isThreat{};
+    for (const Window& w : allWindows()) {
+        int mine = 0, theirs = 0;
+        Move empty = NO_MOVE;
+        for (Move m : w) {
+            const Cell v = b.at(m);
+            if (v == Cell::Empty) empty = m;
+            else if (v == side) ++mine;
+            else ++theirs;
+        }
+        if (mine == K - 1 && theirs == 0) isWin[empty] = true;     // 4 quân của mình + 1 ô trống
+        if (theirs == K - 1 && mine == 0) isThreat[empty] = true;  // 4 quân đối thủ + 1 ô trống
+    }
+    for (Move m = 0; m < CELLS; ++m) {
+        if (isWin[m]) wins.push_back(m);
+        if (isThreat[m]) threats.push_back(m);
+    }
+}
+
+std::vector<Move> forcedMoves(const Board& b) {
+    std::vector<Move> wins, threats;
+    immediateWins(b, b.toMove(), wins, threats);
+    return wins.empty() ? threats : wins;
+}
+
 }  // namespace caro
