@@ -20,6 +20,7 @@ add_subdirectory(third_party/raylib EXCLUDE_FROM_ALL)
 function(caro_warnings target)
   if(MSVC)
     target_compile_options(${target} PRIVATE /W4 /utf-8 /permissive-)
+    target_compile_definitions(${target} PRIVATE _CRT_SECURE_NO_WARNINGS)  # fopen/snprintf of the standard library
   else()
     target_compile_options(${target} PRIVATE -Wall -Wextra)
   endif()
