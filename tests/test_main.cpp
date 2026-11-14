@@ -1,7 +1,4 @@
-// Phase 1 placeholder - tests are added in phase 2.
-#include <cstdio>
+// Điểm vào của caro_tests: chạy toàn bộ TEST_CASE đã đăng ký trong các file test_*.cpp.
+#include "test_util.h"
 
-int main() {
-    std::puts("caro_tests: 0 tests");
-    return 0;
-}
+int main() { return test::runAll(); }

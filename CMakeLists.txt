@@ -48,7 +48,8 @@ target_link_libraries(caro_bench PRIVATE caro_core)
 caro_warnings(caro_bench)
 
 # ---- Tests ----
-add_executable(caro_tests tests/test_main.cpp)
+file(GLOB TEST_SRCS CONFIGURE_DEPENDS tests/*.cpp)
+add_executable(caro_tests ${TEST_SRCS})
 target_link_libraries(caro_tests PRIVATE caro_core)
 caro_warnings(caro_tests)
 enable_testing()
