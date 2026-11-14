@@ -1,9 +1,12 @@
 # Build output
 build/
 .vs/
+dist/
 *.zip
 __pycache__/
 
-# Internal docs, not pushed
+# Internal docs, not pushed (except README and the results table)
 *.md
+!README.md
+!results/tables.md
 plans/
