@@ -1,0 +1,9 @@
+# Build output
+MaNguon/build/
+.vs/
+*.zip
+__pycache__/
+
+# Internal docs, not pushed
+*.md
+plans/
